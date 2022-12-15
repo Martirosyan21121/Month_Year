@@ -11,7 +11,7 @@ public class Main {
         int year = scanner.nextInt();
 
         int daysInMonth = 0;
-        String monthName = "T";
+        String monthName = "";
 
         switch (month) {
             case 1 -> {
@@ -70,4 +70,5 @@ public class Main {
         System.out.print(monthName + " " + year + " has " + daysInMonth + " days\n");
 
     }
+
 }
