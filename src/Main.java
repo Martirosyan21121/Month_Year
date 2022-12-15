@@ -11,7 +11,7 @@ public class Main {
         int year = scanner.nextInt();
 
         int daysInMonth = 0;
-        String monthName = "";
+        String monthName = "T";
 
         switch (month) {
             case 1 -> {
